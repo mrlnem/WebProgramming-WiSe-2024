@@ -1,0 +1,15 @@
+#my-box{
+    border: 5px solid blue;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 1em;
+}
+#my-link{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}

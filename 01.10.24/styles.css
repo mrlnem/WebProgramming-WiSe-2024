@@ -1,0 +1,66 @@
+styles.css
+/* General styles for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Container to hold the boxes aligned vertically */
+.container {
+    display: flex;
+    flex-direction: column; /* Align boxes from top to bottom */
+    gap: 20px; /* Adds space between boxes */
+}
+
+/* Basic box styling */
+.box {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px; /* Adds rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds shadow to boxes */
+    border: 2px solid #a49c9c; /* Adds a black border of 5px thickness */
+    transition: transform 0.3s ease; /* Smooth transform effect */
+}
+
+/* Hover effect */
+.box:hover {
+    transform: scale(1.1); /* Slightly enlarges the box on hover */
+}
+
+/* Different background colors for specific boxes */
+.box1 {
+    background-color: #e74c3c;
+}
+
+.box2 {
+    background-color: #2ecc71;
+}
+
+.box3 {
+    background-color: #f39c12;
+}
+
+.box4 {
+    background-color: #9b59b6;
+}
+
+.box5 {
+    background-color: #1abc9c;
+}
+
+.box6 {
+    background-color: #0c6dcf;
+}
